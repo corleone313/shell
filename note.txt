@@ -3,4 +3,8 @@
 3, wc 字数统计 -l 行统计
 4, who 谁在登录
 5, -lt -后面的是option，没有参数的option可以合并
-
+6, tr -d some char 删除某个符号
+7, read var 读取内容到var : read pass < /dev/tty
+8, cat > file 直接读取标准输入到文件 
+9, $n 代表从shell命令行中读取的第n个参数
+10, set -x/+x ，打开/关闭跟踪功能（即输出同时打印命令)
